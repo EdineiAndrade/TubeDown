@@ -1,4 +1,4 @@
-const btn = document.querySelector("#button-addon2");
+const btn = document.querySelector("#btn-secon");
 
 btn.addEventListener("click", function(e){
     
