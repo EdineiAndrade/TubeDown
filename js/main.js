@@ -13,7 +13,7 @@ btn.addEventListener("click", function(e){
 
     window.location.href = url;
     
-    
+    alert(url);
     console.log(url);
 
     setTimeout(function(){
