@@ -10,7 +10,9 @@ btn.addEventListener("click", function(e){
     
     const url = url1 + url2.value;
 
-    window.location.replace(url);
+
+    window.location.href = url;
+    
     
     console.log(url);
 
