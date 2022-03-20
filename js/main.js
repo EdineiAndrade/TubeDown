@@ -12,6 +12,15 @@ btn.addEventListener("click", function(e){
     
     window.open(url, "_blank") || window.location.replace(url);
 
+    setTimeout(function() {
+        window.location.reload()
+        document.querySelector("#send").value = ""
+    }, 2000);
+   
+    
+
+
+
 });
 
 
