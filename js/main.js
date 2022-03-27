@@ -5,7 +5,6 @@ btn.addEventListener("click", function(e){
     
     e.preventDefault();
 
-    //const url1 = "http://54.145.59.200:3000/?url="
     const url1 = "https://app-tube-down.herokuapp.com/?url="
     const vry1  =  "https://www.youtube.com/"
     const vry2  = "https://youtu.be/"
@@ -20,7 +19,7 @@ btn.addEventListener("click", function(e){
         window.open(url, "_blank");
 
     }else{
-        alert(`Link invalid. Copy in Youtube!! ${urv4}`)
+        alert(`Link  "${urv4}" invalido. Copiar do Youtube!!!`)
         
         }   
 
