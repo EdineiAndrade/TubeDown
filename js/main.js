@@ -20,9 +20,9 @@ btn.addEventListener("click", function(e){
         window.open(url, "_blank");
 
     }else{
-        alert(`Link inválido. Copiar do Youtube!! ' +  ${(urv4)`})
+        alert(`Link inválido. Copiar do Youtube!! ' ${(urv4)`})
         
-    }
+    }   
 
     setTimeout(function() {
         window.location.reload()
@@ -32,5 +32,3 @@ btn.addEventListener("click", function(e){
    
 
 });
-
-
