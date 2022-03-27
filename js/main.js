@@ -16,11 +16,11 @@ btn.addEventListener("click", function(e){
     const urv3 = url2.value
     const urv4 = urv3.substr(0, 17)
 
-    if(urv2 === vry1 | urv4 === vry2  ){
+    if(urv2 === vry1 | urv4 === vry2 ){
         window.open(url, "_blank");
 
     }else{
-        alert('Link inválido. Copiar do Youtube!!')
+        alert(`Link inválido. Copiar do Youtube!! ' +  ${(urv4)`})
         
     }
 
